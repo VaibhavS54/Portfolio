@@ -37,7 +37,7 @@ function ScrollToSection() {
     }, 0);
 
     return () => clearTimeout(timeoutId);
-  }, [hash, pathname]);
+  }, [hash, pathname]);  
 
   return null;
 }
