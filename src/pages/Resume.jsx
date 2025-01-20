@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://drive.google.com/file/d/15INMFgPOJPeIihuaIpkx3IgudreEzUMW/view?usp=drive_link`
+const resumeLink = ``
 
 
 const Resume = () => {
